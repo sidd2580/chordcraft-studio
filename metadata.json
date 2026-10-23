@@ -1,0 +1,6 @@
+{
+  "name": "ChordCraft Studio",
+  "description": "All-in-One Musician Workspace: interactive lyrics & stage mode, 5,000+ chord encyclopedia, audio looper & hands-free auto-scroll.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

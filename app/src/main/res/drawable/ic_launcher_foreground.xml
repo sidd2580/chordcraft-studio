@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Guitar Pick Shape in Center Safe Zone (21-87) -->
+    <path
+        android:pathData="M 54,23 C 74,23 85,34 83,55 C 81,72 63,85 54,89 C 45,85 27,72 25,55 C 23,34 34,23 54,23 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="315"
+                android:endColor="#FF6D00"
+                android:startColor="#FFAB00"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+    <!-- Pick inner contrast contour -->
+    <path
+        android:pathData="M 54,27 C 70,27 79,36 78,53 C 76,68 61,79 54,83 C 47,79 32,68 30,53 C 29,36 38,27 54,27 Z"
+        android:fillColor="#151722" />
+
+    <!-- Fretboard Vertical Strings -->
+    <path
+        android:strokeColor="#546E7A"
+        android:strokeWidth="1.2"
+        android:pathData="M 43,33 L 43,73 M 48.5,33 L 48.5,73 M 54,33 L 54,73 M 59.5,33 L 59.5,73 M 65,33 L 65,73" />
+
+    <!-- Fretboard Horizontal Frets -->
+    <path
+        android:strokeColor="#78909C"
+        android:strokeWidth="1.5"
+        android:pathData="M 40,36 L 68,36 M 40,45 L 68,45 M 40,54 L 68,54 M 40,63 L 68,63 M 40,71 L 68,71" />
+
+    <!-- Chord Finger Dots (Glowing Amber & Cyan) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 43,40.5 m -2.8,0 a 2.8,2.8 0 1,0 5.6,0 a 2.8,2.8 0 1,0 -5.6,0" />
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M 54,49.5 m -2.8,0 a 2.8,2.8 0 1,0 5.6,0 a 2.8,2.8 0 1,0 -5.6,0" />
+    <path
+        android:fillColor="#FF6D00"
+        android:pathData="M 65,58.5 m -2.8,0 a 2.8,2.8 0 1,0 5.6,0 a 2.8,2.8 0 1,0 -5.6,0" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 48.5,58.5 m -2.8,0 a 2.8,2.8 0 1,0 5.6,0 a 2.8,2.8 0 1,0 -5.6,0" />
+</vector>
